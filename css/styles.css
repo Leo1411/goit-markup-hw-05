@@ -1,21 +1,27 @@
-* {
+ul,
+ol {
     list-style: none;
+}
+
+a {
     text-decoration: none;
+    color: currentColor;
 }
 
 body {
     font-family: Roboto, sans-serif;
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 
 .logo {
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+    text-transform: uppercase;
 }
 
 .logo-studio {
@@ -25,6 +31,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #2E2F42;
+    text-transform: uppercase;
 }
 
 .nav-list a {
@@ -45,6 +52,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .address-list a:hover,
@@ -61,6 +69,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .hero-btn {
@@ -71,7 +80,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -99,8 +108,13 @@ body {
 
 .team-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-item h3 {
@@ -108,18 +122,21 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-item p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio-title {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio-item h3 {
@@ -127,6 +144,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio-item p {
@@ -134,6 +152,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .footer {
@@ -147,6 +166,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+    text-transform: uppercase;
 }
 
 .footer-item p {
